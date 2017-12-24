@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width">	
+	<meta name="robots" content="index,follow,noarchive" />
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel='stylesheet' href='css/main.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+</head>
+<body>
+
+	
+	<div class="header">
+		<div class="container">
+
+			<div class="pre-header">
+				<div class="logo">
+					<a href="">
+						<img src="img/logo.jpg" alt="">
+					</a>
+				</div>
+
+				<div class="connexion">
+					<label for="login"></label>
+					<input type="text" id="login" name="login" placeholder="Votre login">
+
+					<label for="mdp"></label>
+					<input type="password" id="mdp" name="mdp" placeholder="Votre mot de passe">
+				
+					<input type="submit" value="OK">
+				</div>
+
+				<div class="menu-mobile">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li class="active"><a href="">Accueil</a></li>
+					<li><a href="">Actualités</a></li>
+					<li><a href="">Qui sommes-nous ?</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	 
+	<div class="wrap-menu-mobile"></div>
+
+	<div class="wrapper">
+		<div class="container">
+
+			<div class="section-1">
+
+				<div class="newsletter">
+					<h2>LA NEWSLETTER</h2>
+					<small>L'actu et les bonnes affaires à ne pas manquer</small>
+
+					<label for="newsletter"></label>
+					<input type="text" id="newsletter" name="newsletter" placeholder="Votre adresse e-mail">
+
+					<input type="submit" value="OK">
+				</div>
+
+				<div class="blog">
+
+					<div class="article">
+						<div class="article-img">
+							<div class="img">
+								<a href="#blog-crm">
+									<img src="img/img-1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="article-info">
+							<div class="title">
+								<a href="#blog-crm">
+									<h3>BLOG CRM</h3>
+								</a>
+							</div>
+							<div class="date">
+								<h6>25/09/2013</h6>
+							</div>
+							<div class="txt">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+							</div>
+							<div class="more">
+								<a href="#blog-crm"> En savoir plus >> </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="article">
+						<div class="article-img">
+							<div class="img">
+								<a href="#altima-sur-iphone">
+									<img src="img/img-2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="article-info">
+							<div class="title">
+								<a href="#altima-sur-iphone">
+									<h3>Altima sur iPhone</h3>
+								</a>
+							</div>
+							<div class="date">
+								<h6>20/08/2013</h6>
+							</div>
+							<div class="txt">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+							</div>
+							<div class="more">
+								<a href="#altima-sur-iphone"> En savoir plus >> </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="article">
+						<div class="article-img">
+							<div class="img">
+								<a href="#altima-demenage">
+									<img src="img/img-3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="article-info">
+							<div class="title">
+								<a href="#altima-demenage">
+									<h3>Altima déménage</h3>
+								</a>
+							</div>
+							<div class="date">
+								<h6>18/08/2013</h6>
+							</div>
+							<div class="txt">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+							</div>
+							<div class="more">
+								<a href="#altima-demenage"> En savoir plus >> </a>
+							</div>
+						</div>
+					</div>					
+				</div>
+
+			</div>
+
+			<div class="section-2">
+
+				<div class="contact">
+					<h2>CONTACTEZ-NOUS PAR TÉLÉPHONE OU PAR MAIL</h2>
+					<small>Contrary to popular belief, Lorem Ipsum is not simply random text.</small>
+
+					<div class="number">
+						<p> 03 28 330 830</p>
+					</div>
+
+					<form>
+						<div class="champs">
+							<label for="nom">Nom* :</label>
+							<input type="nom" id="nom" name="nom" required>
+						</div>
+						<div class="champs">
+							<label for="prenom">Prénom* :</label>
+							<input type="prenom" id="prenom" name="prenom" required>	
+						</div>
+						<div class="champs">
+							<label for="email">Adresse e-mail* :</label>
+							<input type="email" id="email" name="email" required>	
+						</div>
+						<div class="champs">
+							<label for="objet">Objet du message* :</label>
+							<select required name="choix" form="carform">
+								<option selected disabled value=""></option>
+								<option value="choix1">1</option>
+								<option value="choix2">2</option>
+								<option value="choix3">3</option>
+							</select>
+						</div>
+						<div class="champs">
+							<label for="message">Message* :</label>
+							<textarea type="message" id="message" name="message" required></textarea>	
+						</div>
+						<small>* Champs obligatoires</small>
+						<input type="submit" value="Envoyer">
+					</form>
+				</div>
+
+			</div>
+
+			<div class="section-3">
+				<div class="row">
+					<h4>Découvrez les dernières nouveautés</h4>
+
+					<div class="slideshow">
+						<div class="slideshow-button">
+							<ul>
+								<li class="arrow-left">
+									<img src="img/arrow-left.png" alt="">
+								</li>
+								<li class="arrow-right">
+									<img src="img/arrow-right.png" alt="">
+								</li>
+							</ul>
+						</div>							
+						<ul class="slide">
+							<li>
+								<a href="#">
+									<img src="img/slider-img-1.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-2.jpg" alt="">
+								</a>							
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-3.jpg" alt="">
+								</a>								
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-4.jpg" alt="">
+								</a>							
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-1.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-2.jpg" alt="">
+								</a>							
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-3.jpg" alt="">
+								</a>								
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-4.jpg" alt="">
+								</a>							
+							</li>	
+							<li>
+								<a href="#">
+									<img src="img/slider-img-3.jpg" alt="">
+								</a>								
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slider-img-4.jpg" alt="">
+								</a>							
+							</li>																					
+						</ul>					
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<ul>
+				<li>© altima° 2013</li>
+				<li>
+					<a href="">mentions légales</a>
+				</li>		
+				<li>
+					<a href="">contact</a>
+				</li>						
+			</ul>
+		</div>
+	</div>
+
+
+	<script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>
